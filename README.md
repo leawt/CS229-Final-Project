@@ -1,1 +1,6 @@
 # CS229-Final-Project
+
+
+Abstract
+
+This study explores the development of a machine learning-based cross-category recommendation system to predict user review scores across product categories, specifically focusing on the Beauty and Fashion domains using the 2023 Amazon Review dataset. Traditional recommendation systems often fail to address the complexities of cross-category predictions and sparsity in user-item interactions. Our approach leverages advanced feature engineering and models such as linear regression, K-Nearest Neighbors (KNN), content-based filtering, collaborative filtering, and hybrid models. Feature engineering played a pivotal role in improving model accuracy, with user-centric features, including average ratings and sentiment scores, proving highly influential. Among the methods tested, KNN with engineered features achieved the best performance with an RMSE of 0.1859. Collaborative filtering struggled due to sparsity, while the hybrid model offered moderate improvements. The findings emphasize the importance of user-specific features and simpler models for effective cross-category recommendations. Future work will explore advanced NLP techniques and complex recommendation algorithms to address data sparsity and enhance scalability.
